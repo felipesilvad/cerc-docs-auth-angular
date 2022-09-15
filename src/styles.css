@@ -1,1 +1,265 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+  font-family: Cerebri Sans Book;
+  src: url(./assets/Cerebri_Sans_Book.ttf);
+}
+
+@font-face {
+  font-family: Cerebri Sans SemiBold;
+  src: url(./assets/Cerebri_Sans_SemiBold.ttf);
+}
+
+h2 {
+  font-family: Cerebri Sans SemiBold;
+  line-height: 1.4!important;
+}
+
+h6 {
+  font-size: 0.9rem!important;
+  line-height: 2!important;
+}
+
+.App {
+  background-image: url('./assets/BACKGROUND.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height:100%;
+  height:100vh;
+  width:100%;
+  position:absolute;
+  font-family: Cerebri Sans Book;
+}
+
+.card {
+  border-radius: 1.5rem!important;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  padding-left: 4rem!important;
+  padding-top: 1.5rem!important;
+  padding-right: 4rem!important;
+  padding-bottom: 2.5rem!important;
+}
+
+.logo-head{
+  width: 12rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem!important;
+  margin-top: 0.5rem!important;
+}
+
+.logo{
+  width: 15rem;
+  margin-bottom: 1rem;  
+}
+
+
+.woman-img {
+  width: fit-content;
+  width: 16rem;
+  margin-left: 1rem;
+}
+
+.button{
+  background-color: #2CA28D!important;
+  width: 100%;
+  border: none!important;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.8rem!important;
+  font-size: 0.9rem!important;
+  padding: 0.6rem 2.2rem!important;
+}
+
+.button-2{
+  background-color: #2CA28D!important;
+  border: none!important;
+  border-radius: 0.8rem!important;
+  font-size: 0.9rem!important;
+  padding: 0.6rem 2rem!important;
+  width: 100%;
+}
+
+.button-3{
+  color: #2CA28D!important;
+  border: 1px solid #2CA28D!important;
+  background-color: rgba(0, 0, 0, 0)!important;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.8rem!important;
+  font-size: 0.9rem!important;
+  padding: 0.6rem 2.2rem!important;
+}
+
+.button-saber-mais{
+  background-color: #FFFFFF!important;
+  color: #1465BD!important;
+  padding: 0.6rem 2.2rem!important;
+  font-size: 0.9rem!important;
+  font-weight: 600!important;
+  border: none!important;
+  margin-top: 1.5rem;
+  border-radius: 0.8rem!important;
+}
+
+.blue-higlight {
+  color: #0C65A3!important;
+}
+
+.produto-txt {
+  color: #465F72;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.produto-card {
+  border: none!important;
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.25);
+  padding: 1rem!important;
+  margin: 1rem!important;
+}
+
+.card-title {
+  color: #474747;
+  font-size: 1.4rem;
+  /* text-align: center; */
+  font-weight: 700;
+  line-height: 1.5;
+  margin-top: -1rem;
+}
+
+.produto-icon{
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1.5rem;
+}
+
+.card-ul {
+  color: #94A2B7;
+  font-size: 1rem;
+  padding: 1rem;
+  font-weight: 400;
+}
+
+.produto-head {
+  height: 6rem;
+  /* border-bottom: gray solid 0.1rem; */
+}
+
+.produto-sub-txt {
+  color: #465F72;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 0rem;
+  width: 50%!important;
+}
+
+.produto-txt {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: black;
+}
+
+.card-container{
+  display: flex;
+}
+
+.saiba-mais-div{
+  padding: 1.2rem!important;
+  margin: 1.2rem!important;
+}
+
+.saiba-mais-txt{
+  margin-top: 1.2rem!important;
+}
+
+.mt-4-none-xs{
+  margin-top: 1.5rem;
+}
+
+.esqueci-senha{
+  text-align: right;
+  font-size: 0.8rem!important;
+  font-weight: 600;
+  margin-top: -0.6rem;
+  margin-bottom: 1rem;
+  font-family: Cerebri Sans Book!important;
+}
+
+@media only screen and (max-height: 740px) {
+  .App{
+    height: 125%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .card-container{
+    display: block;
+  }
+  .produto-sub-txt {
+    width: 80%!important;
+  }
+  .logo-head{
+    width: 12rem;
+    margin-bottom: 0.0rem!important;
+    margin-left: 0rem!important;
+    margin-top: 0.5rem!important;
+  }
+  .card {
+    border-radius: 1.5rem!important;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    padding-left: 2rem!important;
+    padding-top: 1rem!important;
+    padding-right: 2rem!important;
+    padding-bottom: 1.5rem!important;
+  }
+  .woman-img {
+    display: none;
+  }
+  .saiba-mais-div{
+    padding: 0rem!important;
+    margin: 0rem!important;
+  }
+  .App {
+    background-image: url('./assets/background_gradient_mobile.png');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position:absolute;
+    font-family: Cerebri Sans Book;
+}
+  .saiba-mais-txt{
+    margin: 2rem 2rem;
+  }
+  .button-saber-mais{
+    margin-top: 0rem;
+    text-align: center;
+    font-size: 1rem!important;
+  }
+  .text-center-mobile {
+    text-align: center;
+    color: white;
+  }
+  .button{
+    background-color: #2CA28D!important;
+    width: 100%;
+    border: none!important;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    border-radius: 0.8rem!important;
+    font-size: 0.9rem!important;
+    padding: 0.6rem 2.2rem!important;
+  }
+
+  .mt-4-none-xs{
+    margin-top: 0.3rem;
+  }
+}
+
+.produto {
+  font-family: Cerebri Sans Book!important;
+}
